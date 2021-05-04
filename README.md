@@ -47,5 +47,5 @@ control_depth=read.table("deduped_control.coverage",header=FALSE, sep="\t", na.s
 hist(tumor_depth,breaks = unique(tumor_depth),xlim=c(0, 39),main = "Depth plot for tumor (tu)")
 hist(control_depth,breaks = unique(control_depth),xlim=c(0, 60),main = "Depth plot for control (wt)")
 ```
-![tumor](./tumor_depth.png)
-![control](./control_depth.png)
+![tumor](./tumor_depth.png) ![control](./control_depth.png)
+
